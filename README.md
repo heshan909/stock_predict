@@ -25,13 +25,15 @@ This project is a Python-based GUI application for stock market analysis and for
 ├── stock_predict.py        # Backend for data processing and regression
 ├── numerical_stock_gui.py  # (Optional) Physics-based numerical plotting module
 ├── README.md               # You are here.
-▶ How to Run
+
+## ▶ How to Run
+
 1. 🔧 Install Requirements
-bash
-Copy
-Edit
+
 pip install yfinance numpy pandas matplotlib tkcalendar scikit-learn scipy
 You must have Python 3.7+ installed.
+
+---
 
 2. 🚀 Launch the App
 bash
