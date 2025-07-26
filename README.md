@@ -20,7 +20,7 @@ This project is a Python-based GUI application for stock market analysis and for
 
 ## 🗂 Project Structure
 
-```bash
+
 ├── project_GUI.py          # Main GUI application (Tkinter)
 ├── stock_predict.py        # Backend for data processing and regression
 ├── numerical_stock_gui.py  # (Optional) Physics-based numerical plotting module
@@ -42,51 +42,61 @@ Edit
 python project_GUI.py
 You’ll be able to:
 
-Select a stock ticker
+- Select a stock ticker
 
-Choose a date range
+- Choose a date range
 
-Click Predict to see trendlines
+- Click Predict to see trendlines
 
-Click Physics Predict (after full setup) to visualize numerical analysis
+- Click Physics Predict (after full setup) to visualize numerical analysis
 
-📘 Modules Explained
-stock_predict.py
-Fetches and prepares historical data
+## 📘 Modules Explained
 
-Applies MinMax scaling and builds linear regression
+ stock_predict.py
 
-Predicts future stock prices and returns residuals
+- Fetches and prepares historical data
+
+- Applies MinMax scaling and builds linear regression
+
+- Predicts future stock prices and returns residuals
 
 project_GUI.py
-Fully-featured Tkinter interface
 
-Displays historical and predicted stock prices
+- Fully-featured Tkinter interface
 
-Shows summary boxes and graphical results
+- Displays historical and predicted stock prices
+
+- Shows summary boxes and graphical results
 
 numerical_stock_gui.py (optional)
-Contains physics-focused numerical methods
 
-Generates plots for differentiation, integration, and interpolation
+- Contains physics-focused numerical methods
 
-To be integrated via Physics Predict button
+- Generates plots for differentiation, integration, and interpolation
 
-📊 Example Use Case
+- To be integrated via Physics Predict button
+
+## 📊 Example Use Case
+
 Predict next week's price trend of AAPL and compare it with cubic spline interpolation curve or numerical derivatives. Use both machine learning and classical physics-inspired techniques to cross-validate behavior.
 
-💡 Future Ideas
-Integrate neural networks (LSTM)
+## 💡 Future Ideas
 
-Export predictions to Excel
+- Integrate neural networks (LSTM)
 
-Deploy as a web app with Streamlit
+- Export predictions to Excel
 
-Add parameter tuning and error visualization
+- Deploy as a web app with Streamlit
 
-📘 License
+- Add parameter tuning and error visualization
+
+## 📘 License
+
 MIT License.
-© 2025 [Your Name]
+© 2025 heshan909
+
+## 🤝 Contributions
 
 🤝 Contributions
 Pull requests and suggestions are welcome!
+
