@@ -21,25 +21,25 @@ This project is a Python-based GUI application for stock market analysis and for
 ## 🗂 Project Structure
 
 
-├── project_GUI.py          # Main GUI application (Tkinter)
-├── stock_predict.py        # Backend for data processing and regression
-├── numerical_stock_gui.py  # (Optional) Physics-based numerical plotting module
-├── README.md               # You are here.
+├── project_GUI.py          # Main GUI application (Tkinter)  
+├── stock_predict.py        # Backend for data processing and regression    
+├── numerical_stock_gui.py  # (Optional) Physics-based numerical  plotting module  
+├── README.md               # You are here.  
 
 ## ▶ How to Run
 
 1. 🔧 Install Requirements
 
-pip install yfinance numpy pandas matplotlib tkcalendar scikit-learn scipy
+`pip install yfinance numpy pandas matplotlib tkcalendar scikit-learn scipy`
+
 You must have Python 3.7+ installed.
 
 ---
 
 2. 🚀 Launch the App
-bash
-Copy
-Edit
-python project_GUI.py
+
+`python project_GUI.py`
+
 You’ll be able to:
 
 - Select a stock ticker
